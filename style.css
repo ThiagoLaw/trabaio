@@ -26,11 +26,11 @@ p#link{
     margin: 0;
     box-sizing: border-box;
 }
-
+/*Configurando a imagem principal da tela inicial  */
 header{
     max-width: 100%;
     height: 90vh;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2) ) url(../images/estacao-de-detalhamento-de-lavagem-de-carro.jpg);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2) ) url(../images/HeaderCapa.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -99,6 +99,7 @@ CORES
 #FFFFFF
 #ABABAB
 #1C1C1C
+
 
 
 
