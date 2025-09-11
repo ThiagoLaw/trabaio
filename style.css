@@ -25,10 +25,13 @@ div.title a{
     color: #fff;
     text-decoration: none;
     padding: 20px 80px;
-    border-radius: 50px;
+    border-radius: 6px;
     font-weight: 600;
-    background: linear-gradient(rgba(171, 219, 227, 0.78) 0%, rgba(171, 219, 255, 0.37) 50%, rgba(171, 219, 255, 0.37) 100);
+    background: linear-gradient( to bottom,  #89f7fe, #66a6ff);
     display: inline-block;
+}
+div.title a:hover{
+    opacity: .8;
 }
 /* Configuração das fontes do texto do site */
 
@@ -119,6 +122,8 @@ CORES
 #FFFFFF
 #ABABAB
 #1C1C1C
+
+
 
 
 
