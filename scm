@@ -1,1 +1,3 @@
 https://youtu.be/qzYpdlvwbA8?si=uf5XWpPmhbalNeWy
+
+https://br.shein.com/ark/3715?goods_id=66871503&test=5051&url_from=adhub409734741&scene=1&pf=google&ad_type=DPA&language=pt-br&siteuid=br&abt_param=100621601_a&abt_bid=101613141&version_bid=101535226,101507551,100710741,101545096&version_eid=100596396&landing_page_id=3715&ad_test_id=40885&requestId=olw-50o135m2l6ve&cid=22660949189&gad_source=4&skucode=I17xelz2jbbw&onelink=0/googlefeed_br&network=g&gad_campaignid=22660949189&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJaqEQtt1zel_dun8qpljiMfUEhTYRE3vy6MjAsqqcb4vidJAOgUYtkaAsqrEALw_wcB&adid=757526487527&geoid=9214449&gbraid=0AAAAADm0yO42o2HaParWkQM4OooLOlGh4&setid=180845298196&kwd=pla-2437473746305&currency=BRL&lang=pt
