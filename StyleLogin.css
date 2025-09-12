@@ -15,6 +15,7 @@ body {
     background: url('../images/superhero-car-vintage-style.jpg');
     background-size: cover;
     background-position: center;
+  
 
 }
 .container {
@@ -32,6 +33,7 @@ body {
     text-align: center;
 
 }
+
 .input-box {
     position: relative;
     width: 100%;
@@ -86,9 +88,86 @@ body {
     color: #1C1C1C;
     font-weight: 600;
     box-shadow: 0 0 10px rgba(0,0,0, .1);
+    margin-top: 20px;
 }
-.login :hover{
+.login a{
+    color: #1C1C1C;
+}
+.login:hover{
     background-color: transparent;
-    border: 2px solid #1C1C1C
-
+    border: 2px solid #1C1C1C;
+    color:#fff;
+    transition: 0.5s;
+}
+.register-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.register-link a:hover {
+    text-decoration: underline;
+}
+/* botões do cadastro */
+.input-box-s {
+    position: relative;
+    width: 100;
+    height: 200x;
+    margin: 30px 20;
+}
+.input-box-s input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box-s input::placeholder{
+    color: #fff;
+}
+.remember-forgot-s {
+    display: flex;
+    justify-content: space-around;
+    margin: 2px 0 20px;
+}
+.remember-forgot-s label input {
+    accent-color: #fff;
+    margin-right: 5px;
+}
+.remember-forgot-s a{
+    text-decoration: none;
+    color: #fff;
+}
+.remember-forgot-s a:hover{
+    text-decoration: underline;
+}
+.register {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #1C1C1C;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    margin-top: 20px;
+}
+.register a{
+    color: #1C1C1C;
+}
+.register:hover{
+    background-color: transparent;
+    border: 2px solid #1C1C1C;
+    color:#fff;
+    transition: 0.5s;
 }
