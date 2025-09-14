@@ -1,17 +1,18 @@
 @charset "UTF-8";
 
-
+/* Configuração das fontes do texto do site */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 @font-face {
-    font-family: 'flamengo';
+    font-family: 'fonte 1';
     src: url(../Fontes/EBGaramond-Italic-VariableFont_wght.ttf)
 }
 
 h1{
-    font-family: 'flamengo', sans-serif;
+    font-family: 'fonte 1', sans-serif;
 }
+
 p#import{
     font-family: "PT Serif", serif;
 }
@@ -33,7 +34,7 @@ div.title a{
 div.title a:hover{
     opacity: .8;
 }
-/* Configuração das fontes do texto do site */
+
 
 *{
     padding: 0;
@@ -43,11 +44,14 @@ div.title a:hover{
 /*Configurando a imagem principal da tela inicial  */
 header{
     max-width: 100%;
-    height: 90vh;
+    height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url('../images/HeaderCapa.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    margin: 0;
+    padding: 0;
+    
 
     position: relative;
 
@@ -113,7 +117,49 @@ header div.title h2{
     color: #abdbe3;
     margin-bottom: 55px;
 }
-    
+    /* ajeitando o texto e o título da página "Sobre" */
+header div.sobre1{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 30em;
+    left: 50em;
+    transform: translate(-50%, -50%);
+    gap: 20px; /*distância da imagem e do texto */
+    display: flex;
+
+}
+header div.sobre1 h1{
+    margin-bottom: 60px;
+    top: 0em;
+    color: #fff;
+    font-size: 55px;
+    transform: translateY(50%);
+    transform: translateX(100%);
+}
+header div.sobre1 p{
+    margin: 50px;
+    color: #fff;
+    font: 30px;
+    max-width: 1000px;
+    text-align: justify;
+    transform: translateY(-30%);
+    transform: translateX(-30%);
+}
+
+.fotopai {
+   
+position: absolute;
+  left: 20px;             
+  top: 50%;
+  transform: translateY(-50%); 
+  width: clamp(180px, 20vw, 220px);
+  height: auto;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+  z-index: 3;
+
+}
+
 
 /*
 CORES 
@@ -122,6 +168,7 @@ CORES
 #FFFFFF
 #ABABAB
 #1C1C1C
+
 
 
 
