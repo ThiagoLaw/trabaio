@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, Initial-scale=1.0">
 <title>Agendamento</title>
 <!-- unindo o conteúdo das pastas style no código  -->
-        <link rel="stylesheet" href="./Style/style.css"> 
+        <link rel="stylesheet" href="./Style/StyleAgend.css"> 
 <!-- determinando a fonte que será usada -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,10 +20,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/sticky.min.js" integrity="sha512-O5YCLUxCY2OBc4rfpnKUIgE4LGuCiW8CrJ7ty4hvkBAAKUOnlbomEFWd3a6ruRnFvO3LG2wiaGiJ1heOvdppvA==" crossorigin="anonymous"></script>
 
         <div class="container">
-            <div class="left">
+            <div class="esquerda">
                 <h3 class="heading">Agende sua Lavagem!</h3>
                 <p class="text">Nos diga qual é o seu carro, que data te favorece e qual horário deseja!</p>
-                <form action="#">
+                <form action="./Perfil.html">
                     <div class="inputBox">
                         <input type="text" required name="name" class="name" placeholder="Seu nome completo">
                     </div>
@@ -34,29 +34,48 @@
                         <input type="text" required="Serviço" class="Serviço" placeholder="Serviço desejado">
                     </div>
                       <div class="inputBox">
-                        <input type="datetime" required type="Data e Hora" class="datahora" placeholder="Data e Hora desejada">
+                          <!-- <label for="datetime">Data e Hora desejada:</label> -->
+                    <input type="datetime-local" id="datetime" >
                     </div>
                     <button class="agendar">Agendar</button>
                     
                 </form>
             </div>
+            <div class="direita">
+                <div class="ilustracao">
+                <img src="./images/undraw_choose_5kz4.svg" alt="">
+            </div>
+            <div class="info-contato">
+                <div class="infoBox">
+                <div class="icon">
+                    <ion-icon name="Location"></ion-icon>
+                </div>
+                <div class="texto">
+                    <p>NACIONALGAS, St. Leste Q 37 Cl - Gama, Brasília - DF</p>
+                </div>
+                </div>
+
+                <div class="info-contato">
+                    <div class="infoBox">
+                <div class="icon">
+                    <ion-icon name="call"></ion-icon>
+                </div>
+                <div class="texto">
+                    <p> WhatsApp: (61) 9 9625-2530</p>
+                </div>
+                    </div> 
+
+                <div class="info-contato">
+                    <div class="infoBox">
+                <div class="icon">
+                    <ion-icon name="mail"></ion-icon>
+                </div>
+                <div class="texto">
+                    <p>adaogomes070@gmail.com</p>
+                </div>
+                </div>
+                </div>
+            </div>
+            </div>
         </div>
 
-        <!-- icons -->
-         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-   <header>        
-       <script src="Scripts/script.js"></script>
-
-   </header>
-        <main> </main>
-        <footer> </footer>
-        
-                
-        </script>
-
- 
-</body>
-
-
-</html>
