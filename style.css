@@ -99,7 +99,7 @@ header nav#nav-esq ul#menu-principal li a:hover{
     border-bottom: 1px solid #fff;
     opacity: .6;
 }
-/* Ajeitando o título da página */
+/* Ajeitando o título da página inicial */
 header div.title{
     position: absolute;
     width: 100%;
@@ -117,57 +117,160 @@ header div.title h2{
     color: #abdbe3;
     margin-bottom: 55px;
 }
-    /* ajeitando o texto e o título da página "Sobre" */
-header div.sobre1{
-    position: absolute;
-    width: 100%;
-    height: 300px;
-    top: 30em;
-    left: 50em;
-    transform: translate(-50%, -50%);
-    gap: 20px; /*distância da imagem e do texto */
-    display: flex;
+ /* ajeitando o texto e o título da página "Sobre" */
+.sobre1{
+    width: 1140px;
+    height: 100vh;
+    margin: auto;
 
 }
-header div.sobre1 h1{
-    margin-bottom: 60px;
-    top: 0em;
-    color: #fff;
-    font-size: 55px;
-    transform: translateY(50%);
-    transform: translateX(100%);
+.sobre1 h1{
+    font-weight: bold;
+    color: rgb(226,135,67);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 67px;  
+    transform: translateX(-13%); 
 }
-header div.sobre1 p{
-    margin: 50px;
-    color: #fff;
-    font: 30px;
-    max-width: 1000px;
+
+.sobre2{
+   width: 50%;
+   float: left;
+   margin-top: 55px;
+   left: 50px;
+}
+.sobre2 h1{
+    width: 475px;
+    text-align: left;
+    font-size: 40px;
+    color: rgb(226,135,67);
+    transform: translatex(-25%);
+}
+.sobre2 p{
+    width: 475px;
     text-align: justify;
-    transform: translateY(-30%);
-    transform: translateX(-30%);
+    margin-top: 18px;
+    font-size: 18px;
+    color: #fff;
+    transform: translateX(-50%);
 }
 
-.fotopai {
-   
-position: absolute;
-  left: 20px;             
-  top: 50%;
-  transform: translateY(-50%); 
-  width: clamp(180px, 20vw, 220px);
-  height: auto;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
-  z-index: 3;
+.fotopai{
+    float: right;
+    overflow: hidden;
+    transform: translatey(50%);
+}
+/* elementos da tela de Perfil */
+.container {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    display: flex;
+    box-shadow: 0 1px 20px #1c1c1c; 
+}
+.container .esquerdap{
+    width: 35%;
+    background: #1c1c1c;
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+.container .esquerdap img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.container .esquerdap h4{
+    margin-bottom: 10px;
+}
+.container p{
+    font-size: 12px;
+}
+.container .direitap{
+    width: 65%;
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 30px 25px;
+}
+.container .direitap .info, 
+.container .direitap .agendamentos{
+    margin-bottom: 25px;
+}
+.container .direitap .info h3, 
+.container .direitap .agendamentos h3{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #1c1c1c;
+    color: #292828;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.container .direitap .info_data,
+.container .direitap .agen_data{
+    display: flex;   
+    justify-content: space-between;
+}
+.container .direitap .info_data .data,
+.container .direitap .agen_data .data{
+    width: 45%;
+}
+.container .direitap .info_data .data h4,
+.container .direitap .agen_data .data h4{
+    color: #292828;
+    margin-bottom: 5px;
+}
+.container .direitap .info_data .data p,
+.container .direitap .agen_data .data p{
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #1c1c1c;
+
+}
+/* elementos presentes na tela de "Serviços" */
+.containerser{
+    width: 90%;
+    margin: auto;
+}
+.cabecalho{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    text-decoration: underline;
+    transform: translate(-10%, 40%);
+}
+.services-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: #1c1c1c;
+    transform: translate(-10%, 30%);
+    
+}
+.service-card{
+    width: 350px;
+    border: 1px solid #232323;
+    padding:20px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.service-card h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.service-card p{
+    font-size: 15px;
+    color: #fff
 
 }
 
-
-/*
-CORES 
-
-#abdbe3
-#FFFFFF
-#ABABAB
-#1C1C1C
 
 
 
