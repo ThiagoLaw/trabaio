@@ -1,3 +1,24 @@
+<?php
+    if(isset($_POST['submit'])){
+        include_once('config.php');
+
+        $user = $_POST['user'];
+        $senha = $_POST['senha'];
+       
+       
+
+       
+            $result = mysqli_query($conexao, "SELECT * FROM cadrasto WHERE Usuario='$user' AND Senha ='$senha'");
+           if(mysqli_num_rows($result)>0){echo "<script>alert('boiola logado')</script>";
+        header("Location: http://localhost/pagina_inicial.php");
+        
+        
+        
+        }
+           
+    }
+    ?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -13,15 +34,15 @@
 <body>
     <!-- caixas de resposta do email e da senha -->
     <main class="container">
-        <form action="./página_inicial.html" method="get" target="_blank"> 
+        <form action="/login.php" method="post"> 
             <h1>Login Lava Jato</h1>
             <div class="input-box">
-                <input placeholder="Usuário" type="text" required>
+                <input placeholder="Usuário" type="text" name="user" required>
                 <!-- icones  -->
                 <i class="bx bxs-user"> </i>
             </div>
             <div class="input-box">
-                <input placeholder="Senha" type="password" required>
+                <input placeholder="Senha" type="password" name="senha" required>
                 <!-- icones -->
                 <i class="bx bxs-lock-alt"> </i>
             </div>
@@ -34,16 +55,22 @@
                 <a href="#">Esqueci minha senha</a>
             </div>
             <section>
-                <button type="submit" class="login">Login</button>
+                
                 <!-- <a href="./página_inicial.html" target="_blank" class="login">Login</a>
             </section> -->
             <div class="register-link">
-                <p>Não tem uma conta? <a href="./cadastro.html">Cadastre-se!</a></p>
+                <p>Não tem uma conta? <a href="./cadastro.php">Cadastre-se!</a></p>
             </div>
-    
+      
+              <div class="input-box-s">
+            <input type="submit" value="Login" name="submit" id="submit" class="functionbuttons"><br/>
+             </div> 
+
         </form>
     </main>
 </body>
 </html>
+</html>
+
 
 
