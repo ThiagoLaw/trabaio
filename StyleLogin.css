@@ -26,6 +26,7 @@ body {
     color: #fff;
     padding: 30px 40px;
     box-shadow: 0 0 10px rgba(0,0,0,.2);
+    backdrop-filter: blur(10px);
 }
 
 .container h1{
@@ -177,5 +178,6 @@ body {
     color:#fff;
     transition: 0.5s;
 }
+
 
 
