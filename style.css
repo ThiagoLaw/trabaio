@@ -118,48 +118,59 @@ header div.title h2{
     margin-bottom: 55px;
 }
  /* ajeitando o texto e o título da página "Sobre" */
+
+ 
 .sobre1{
     width: 1140px;
-    height: 100vh;
     margin: auto;
-
+    transform: translateX(-6%);
 }
 .sobre1 h1{
     font-weight: bold;
-    color: #66a6ff; ;
+    color: #66a6ff; 
     font-size: 50px;
     text-align: center;
     margin-top: 67px;  
-    transform: translateX(-13%); 
+    transform: translateX(-10%); 
 }
 
 .sobre2{
-   width: 50%;
-   float: left;
-   margin-top: 55px;
-   left: 50px;
-}
-.sobre2 h1{
-    width: 475px;
-    text-align: left;
-    font-size: 40px;
-    color: #abdbe3;
-    transform: translatex(-25%);
-}
-.sobre2 p{
-    width: 475px;
-    text-align: justify;
-    margin-top: 18px;
-    font-size: 18px;
-    color: #fff;
-    transform: translateX(-50%);
+    width: 80%;
+    max-width: 900px;
+    border: 2px solid #333;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+    text-align: center;
+    transform: translateY(20%);
 }
 
-.fotopai{
-    float: right;
-    overflow: hidden;
-    transform: translatey(50%);
+.sobre2 h1{
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+    color: #abdbe3;
+    margin-bottom: 15px;
+    transform: translateX(-1.5%);
+   
 }
+.sobre2 p{
+    text-align: justify; 
+    font-size: 18px;
+    color: #fff;
+    margin-top: 0;
+}
+
+/* .fotopai{
+    float: center;
+    overflow: hidden;
+    transform: translatey(-2,5%);
+} */
+
 /* elementos da tela de Perfil */
 .container {
     background-color: #fff;
@@ -264,12 +275,39 @@ header div.title h2{
     font-size: 24px;
     margin-bottom: 10px;
     color: #fff;
+    
 }
 .service-card p{
     font-size: 15px;
-    color: #fff
+    color: #fff;
+    display: inline-block;
 
 }
+header nav#nav-esq ul#menu-principal2{
+    margin-left: 5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    display: inline-block;
+}
+header nav#nav-esq ul#menu-principal2 li{
+    list-style: none;    
+    margin-right: 2rem;
+}
+header nav#nav-esq ul#menu-principal2 li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    text-shadow: 4px 6px 10px #000;
+    padding-bottom: 10px;
+    transition: .3s ease-out;
+
+}
+header nav#nav-esq ul#menu-principal2 li a:hover{
+    border-bottom: 1px solid #fff;
+    opacity: .6;
+}
+
 
 
 
