@@ -308,6 +308,40 @@ header nav#nav-esq ul#menu-principal2 li a:hover{
     opacity: .6;
 }
 
+/* Elementos da tela "Meus pontos" */
+.conjuntopontos{
+    position: absolute;     
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1c1c1c;
+    padding: 30px 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;            
+    width: 60%;
+    max-width: 500px;
+}
+
+.conjuntopontos h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.conjuntopontos p{
+    font-size: 18px;
+}
+.titleponts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;         
+    color: white;
+}
+.icon-star {
+    width: 30px;        
+    height: 30px;
+}   
 
 
 
